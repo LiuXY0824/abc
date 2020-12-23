@@ -1,0 +1,46 @@
+
+LXY@LAPTOP-3VSBBSKD MINGW64 /d/信息素养作业 (master)
+$ git config --global user.name "LiuXY0824"
+
+LXY@LAPTOP-3VSBBSKD MINGW64 /d/信息素养作业 (master)
+$ git config --global use.email "1952685471@qq.com"
+
+LXY@LAPTOP-3VSBBSKD MINGW64 /d/信息素养作业 (master)
+$ git init
+Reinitialized existing Git repository in D:/信息素养作业/.git/
+
+LXY@LAPTOP-3VSBBSKD MINGW64 /d/信息素养作业 (master)
+$ git clone https://github.com/LiuXY0824/abc.git
+Cloning into 'abc'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+LXY@LAPTOP-3VSBBSKD MINGW64 /d/信息素养作业 (master)
+$ cd abc
+
+LXY@LAPTOP-3VSBBSKD MINGW64 /d/信息素养作业/abc (main)
+$ git add README.md
+
+LXY@LAPTOP-3VSBBSKD MINGW64 /d/信息素养作业/abc (main)
+$ git commit -m"11.20信息素养作业"
+[main 2578f6e] 11.20信息素养作业
+ 1 file changed, 35 insertions(+), 1 deletion(-)
+ rewrite README.md (100%)
+
+LXY@LAPTOP-3VSBBSKD MINGW64 /d/信息素养作业/abc (main)
+$ git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com': LiuXY0824
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 1.76 KiB | 1.76 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/LiuXY0824/abc.git
+   5cc7a80..2578f6e  main -> main
+
+LXY@LAPTOP-3VSBBSKD MINGW64 /d/信息素养作业/abc (main)
+$
